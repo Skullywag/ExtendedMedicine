@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+  <RecipeDef>
+    <defName>MakeMedicine</defName>
+    <label>Make Medicine</label>
+    <description>Combine herbal medicines and sterile cloth to create a higher quality medical kit.</description>
+    <jobString>Creating Medicine.</jobString>
+    <workAmount>2000</workAmount>
+    <workSkill>Medicine</workSkill>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <soundWorking>Recipe_MakeClothes</soundWorking>
+    <recipeUsers>
+      <li>TableMed</li>
+    </recipeUsers>
+    <skillRequirements>
+      <li>
+        <skill>Crafting</skill>
+        <minLevel>10</minLevel>
+      </li>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Synthread</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HerbalMedicine</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <Medicine>1</Medicine>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Synthread</li>
+        <li>HerbalMedicine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>MakeGlitterMedicine</defName>
+    <label>Make Glitterworld Medicine</label>
+    <description>Combine Medical Kits and sterile advanced cloths to create a higher quality medical kit.</description>
+    <jobString>Creating Glitter world medical pack.</jobString>
+    <workAmount>2000</workAmount>
+    <workSkill>Medicine</workSkill>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <soundWorking>Recipe_MakeClothes</soundWorking>
+    <recipeUsers>
+      <li>TableMed</li>
+    </recipeUsers>
+    <skillRequirements>
+      <li>
+        <skill>Crafting</skill>
+        <minLevel>15</minLevel>
+      </li>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Medicine</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <GlitterworldMedicine>1</GlitterworldMedicine>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>Medicine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+</RecipeDefs>
