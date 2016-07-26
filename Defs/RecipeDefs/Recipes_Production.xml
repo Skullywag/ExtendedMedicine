@@ -9,7 +9,7 @@
     <workAmount>2000</workAmount>
     <workSkill>Medicine</workSkill>
     <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
-    <soundWorking>Recipe_MakeClothes</soundWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
     <recipeUsers>
       <li>TableMed</li>
     </recipeUsers>
@@ -23,10 +23,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Synthread</li>
+            <li>Cloth</li>
           </thingDefs>
         </filter>
-        <count>2</count>
+        <count>5</count>
       </li>
       <li>
         <filter>
@@ -42,7 +42,7 @@
     </products>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Synthread</li>
+        <li>Cloth</li>
         <li>HerbalMedicine</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -56,7 +56,7 @@
     <workAmount>2000</workAmount>
     <workSkill>Medicine</workSkill>
     <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
-    <soundWorking>Recipe_MakeClothes</soundWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
     <recipeUsers>
       <li>TableMed</li>
     </recipeUsers>
@@ -70,7 +70,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Hyperweave</li>
+            <li>Synthread</li>
           </thingDefs>
         </filter>
         <count>2</count>
@@ -89,7 +89,7 @@
     </products>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Hyperweave</li>
+        <li>Synthread</li>
         <li>Medicine</li>
       </thingDefs>
     </fixedIngredientFilter>

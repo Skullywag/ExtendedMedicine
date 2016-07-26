@@ -6,7 +6,9 @@
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Crafting</workType>
     <priorityInType>101</priorityInType>
-    <singleBillGiverDef>TableMed</singleBillGiverDef>
+    <fixedBillGiverDefs>
+      <li>TableMed</li>
+    </fixedBillGiverDefs>
     <verb>crafting</verb>
     <gerund>crafting at</gerund>
     <requiredCapacities>
