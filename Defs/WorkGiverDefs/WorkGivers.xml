@@ -3,6 +3,7 @@
 
   <WorkGiverDef>
     <defName>MakeMedicine</defName>
+    <label>Make medicine</label>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Crafting</workType>
     <priorityInType>101</priorityInType>
